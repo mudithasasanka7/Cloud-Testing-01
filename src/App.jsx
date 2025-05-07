@@ -2,7 +2,8 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import CreateCV from './components/CreateCV';
 import ViewCV from './components/ViewCV';
-import './styles.css';
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
