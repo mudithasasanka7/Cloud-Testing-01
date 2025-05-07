@@ -23,7 +23,7 @@ function CreateCV() {
 
   return (
     <div className="form-container">
-      <h2>Create Your CV</h2>
+      <h2>Create Your CVs</h2>
       <form onSubmit={handleSubmit}>
         {Object.keys(formData).map((field) => (
           <div key={field}>
